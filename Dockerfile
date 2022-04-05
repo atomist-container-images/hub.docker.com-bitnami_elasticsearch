@@ -1,18 +1,49 @@
-# Tags: latest, 7.17.1-debian-10-r24, 7.17.1, 7-debian-10, 7
+# Tags: latest, 8.1.2-debian-10-r0, 8.1.2, 8-debian-10, 8
 FROM bitnami/elasticsearch:latest
-FROM bitnami/elasticsearch:7.17.1-debian-10-r24
-FROM bitnami/elasticsearch:7.17.1
+FROM bitnami/elasticsearch:8.1.2-debian-10-r0
+FROM bitnami/elasticsearch:8.1.2
+FROM bitnami/elasticsearch:8-debian-10
+FROM bitnami/elasticsearch:8
+
+# Tags: 7.17.2-debian-10-r3, 7.17.2, 7-debian-10, 7
+FROM bitnami/elasticsearch:7.17.2-debian-10-r3
+FROM bitnami/elasticsearch:7.17.2
 FROM bitnami/elasticsearch:7-debian-10
 FROM bitnami/elasticsearch:7
 
-# Tags: 6.8.23-debian-10-r73, 6.8.23, 6-debian-10, 6
-FROM bitnami/elasticsearch:6.8.23-debian-10-r73
+# Tags: _
+FROM bitnami/elasticsearch:_
+
+# Tags: 6.8.23-debian-10-r77, 6.8.23, 6-debian-10, 6
+FROM bitnami/elasticsearch:6.8.23-debian-10-r77
 FROM bitnami/elasticsearch:6.8.23
 FROM bitnami/elasticsearch:6-debian-10
 FROM bitnami/elasticsearch:6
 
-# Tags: _
-FROM bitnami/elasticsearch:_
+# Tags: 7.17.2-debian-10-r2
+FROM bitnami/elasticsearch:7.17.2-debian-10-r2
+
+# Tags: 6.8.23-debian-10-r76
+FROM bitnami/elasticsearch:6.8.23-debian-10-r76
+
+# Tags: 7.17.2-debian-10-r1
+FROM bitnami/elasticsearch:7.17.2-debian-10-r1
+
+# Tags: 6.8.23-debian-10-r75
+FROM bitnami/elasticsearch:6.8.23-debian-10-r75
+
+# Tags: 7.17.2-debian-10-r0
+FROM bitnami/elasticsearch:7.17.2-debian-10-r0
+
+# Tags: 6.8.23-debian-10-r74
+FROM bitnami/elasticsearch:6.8.23-debian-10-r74
+
+# Tags: 6.8.23-debian-10-r73
+FROM bitnami/elasticsearch:6.8.23-debian-10-r73
+
+# Tags: 7.17.1-debian-10-r24, 7.17.1
+FROM bitnami/elasticsearch:7.17.1-debian-10-r24
+FROM bitnami/elasticsearch:7.17.1
 
 # Tags: 6.8.23-debian-10-r72
 FROM bitnami/elasticsearch:6.8.23-debian-10-r72
@@ -167,27 +198,3 @@ FROM bitnami/elasticsearch:6.8.23-debian-10-r47
 
 # Tags: 7.17.0-debian-10-r28
 FROM bitnami/elasticsearch:7.17.0-debian-10-r28
-
-# Tags: 6.8.23-debian-10-r46
-FROM bitnami/elasticsearch:6.8.23-debian-10-r46
-
-# Tags: 7.17.0-debian-10-r27
-FROM bitnami/elasticsearch:7.17.0-debian-10-r27
-
-# Tags: 6.8.23-debian-10-r45
-FROM bitnami/elasticsearch:6.8.23-debian-10-r45
-
-# Tags: 7.17.0-debian-10-r26
-FROM bitnami/elasticsearch:7.17.0-debian-10-r26
-
-# Tags: 6.8.23-debian-10-r44
-FROM bitnami/elasticsearch:6.8.23-debian-10-r44
-
-# Tags: 7.17.0-debian-10-r25
-FROM bitnami/elasticsearch:7.17.0-debian-10-r25
-
-# Tags: 6.8.23-debian-10-r43
-FROM bitnami/elasticsearch:6.8.23-debian-10-r43
-
-# Tags: 7.17.0-debian-10-r24
-FROM bitnami/elasticsearch:7.17.0-debian-10-r24
