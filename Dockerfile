@@ -5,14 +5,17 @@ FROM bitnami/elasticsearch:8.1.3
 FROM bitnami/elasticsearch:8-debian-10
 FROM bitnami/elasticsearch:8
 
-# Tags: _
-FROM bitnami/elasticsearch:_
-
-# Tags: 7.17.3-debian-10-r9, 7.17.3, 7-debian-10, 7
-FROM bitnami/elasticsearch:7.17.3-debian-10-r9
+# Tags: 7.17.3-debian-10-r10, 7.17.3, 7-debian-10, 7
+FROM bitnami/elasticsearch:7.17.3-debian-10-r10
 FROM bitnami/elasticsearch:7.17.3
 FROM bitnami/elasticsearch:7-debian-10
 FROM bitnami/elasticsearch:7
+
+# Tags: _
+FROM bitnami/elasticsearch:_
+
+# Tags: 7.17.3-debian-10-r9
+FROM bitnami/elasticsearch:7.17.3-debian-10-r9
 
 # Tags: 8.1.3-debian-10-r10
 FROM bitnami/elasticsearch:8.1.3-debian-10-r10
